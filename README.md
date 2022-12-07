@@ -1,6 +1,8 @@
 # Reveal Reporting Network Training: Structured Legislative Data with LegiScan
 
-Read : [Big Lie Proponents Are Creating Harsh Criminal Penalties for Elections Activity](https://revealnews.org/article/election-crime-legislation-voter-suppression/)
+This is a product of the Reveal Reporting Network, which supports small or local newsrooms with free investigative resources. Learn more at [revealnews.org/network](https://revealnews.org/network) and review our partner requirements [here](https://revealnews.org/local/reveal-reporting-networks/partner-requirements/).
+
+Read: [Big Lie Proponents Are Creating Harsh Criminal Penalties for Elections Activity](https://revealnews.org/article/election-crime-legislation-voter-suppression/)
 
 Listen: [The Ballot Boogeymen
 ](https://revealnews.org/podcast/the-ballot-boogeymen/)
@@ -9,13 +11,12 @@ Explore: [Search for the Crime Bills That Target Voting and Elections in Your St
 
 ***
 
-Note: Until the training, this repo is:
-
-![](01_inputs/documentation/construction.gif)
-
 This repository contains Python scripts that interface with the LegiScan API to retrieve, collate and analyze structured data on legislation at both the federal and state level.
 
 You'll be able to examine the history of a specific bill, analyze legislative action on a specific issue over a decade’s time[^1] or simply create an organized system for tracking the next session.
+
+**Note**: Until the training, this repo is
+![](01_inputs/documentation/construction.gif)
 ## Requirements
 ### Python
 - [ ] Version 3.8 or later
