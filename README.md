@@ -2,12 +2,14 @@
 
 This is a product of the Reveal Reporting Network, which supports small or local newsrooms with free investigative resources. Learn more at [revealnews.org/network](https://revealnews.org/network) and review our partner requirements [here](https://revealnews.org/local/reveal-reporting-networks/partner-requirements/).
 
-Read: [Big Lie Proponents Are Creating Harsh Criminal Penalties for Elections Activity](https://revealnews.org/article/election-crime-legislation-voter-suppression/)
+***
 
-Listen: [The Ballot Boogeymen
+:page_facing_up:: [Big Lie Proponents Are Creating Harsh Criminal Penalties for Elections Activity](https://revealnews.org/article/election-crime-legislation-voter-suppression/)
+
+:headphones:: [The Ballot Boogeymen
 ](https://revealnews.org/podcast/the-ballot-boogeymen/)
 
-Explore: [Search for the Crime Bills That Target Voting and Elections in Your State](https://revealnews.org/article/search-for-the-crime-bills-that-target-voting-and-elections-in-your-state/)
+:bar_chart:: [Search for the Crime Bills That Target Voting and Elections in Your State](https://revealnews.org/article/search-for-the-crime-bills-that-target-voting-and-elections-in-your-state/)
 
 ***
 
@@ -26,7 +28,8 @@ See [Installation](#installation)
 
 ### Legiscan
 - [ ] An [account](https://legiscan.com/user/register) (free)
-  ![Sceenshot of the LegiScan account creation page, depicting radio buttons under the form item labeled "Account Type," where the first item ("OneVote - Free public service [..]") is selected](01_inputs/documentation/legiscan_account_creation.png "LegiScan registration page")
+  
+  ![Screenshot of the LegiScan account creation page, depicting radio buttons under the form item labeled "Account Type," where the first item ("OneVote - Free public service [..]") is selected](01_inputs/documentation/legiscan_account_creation.png "LegiScan registration page")
 - [ ] An [API key](https://legiscan.com/legiscan) (only possible once you've verified the email address under which you registered)
 ## Setup
 ### Virtual Environment
