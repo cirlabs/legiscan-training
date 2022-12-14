@@ -1,0 +1,352 @@
+Name of region,Status of region,state_code,AP,LegiScan State,LegiScan Chambers,chamber_code,chamber,LegiScan Types,type_code,type,optional_flag,single_bill_type_flag,bill_prefix,bill_prefix_description
+Alabama,State,AL,Ala.,Alabama,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Alabama,State,AL,Ala.,Alabama,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Alabama,State,AL,Ala.,Alabama,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Alabama,State,AL,Ala.,Alabama,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Alabama,State,AL,Ala.,Alabama,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Alabama,State,AL,Ala.,Alabama,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Alaska,State,AK,Alaska,Alaska,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Alaska,State,AK,Alaska,Alaska,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Alaska,State,AK,Alaska,Alaska,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Alaska,State,AK,Alaska,Alaska,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Alaska,State,AK,Alaska,Alaska,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Alaska,State,AK,Alaska,Alaska,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Alaska,State,AK,Alaska,Alaska,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Alaska,State,AK,Alaska,Alaska,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Arizona,State,AZ,Ariz.,Arizona,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Arizona,State,AZ,Ariz.,Arizona,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Arizona,State,AZ,Ariz.,Arizona,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Arizona,State,AZ,Ariz.,Arizona,H-House,H,House,M-Memorial,M,Memorial,False,False,HM,House Memorial
+Arizona,State,AZ,Ariz.,Arizona,H-House,H,House,CM-Concurrent Memorial,CM,Concurrent Memorial,False,False,HCM,House Concurrent Memorial
+Arizona,State,AZ,Ariz.,Arizona,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Arizona,State,AZ,Ariz.,Arizona,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Arizona,State,AZ,Ariz.,Arizona,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Arizona,State,AZ,Ariz.,Arizona,S-Senate,S,Senate,M-Memorial,M,Memorial,False,False,SM,Senate Memorial
+Arizona,State,AZ,Ariz.,Arizona,S-Senate,S,Senate,CM-Concurrent Memorial,CM,Concurrent Memorial,False,False,SCM,Senate Concurrent Memorial
+Arkansas,State,AR,Ark.,Arkansas,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Arkansas,State,AR,Ark.,Arkansas,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Arkansas,State,AR,Ark.,Arkansas,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Arkansas,State,AR,Ark.,Arkansas,H-House,H,House,MR-Memorial,MR,Memorial,False,False,HMR,House Memorial
+Arkansas,State,AR,Ark.,Arkansas,H-House,H,House,CMR-Joint Memorial,CMR,Joint Memorial,False,False,HCMR,House Joint Memorial
+Arkansas,State,AR,Ark.,Arkansas,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Arkansas,State,AR,Ark.,Arkansas,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Arkansas,State,AR,Ark.,Arkansas,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Arkansas,State,AR,Ark.,Arkansas,S-Senate,S,Senate,MR-Memorial,MR,Memorial,False,False,SMR,Senate Memorial
+Arkansas,State,AR,Ark.,Arkansas,S-Senate,S,Senate,CMR-Joint Memorial,CMR,Joint Memorial,False,False,SCMR,Senate Joint Memorial
+California,State,CA,Calif.,California,A-Assembly,A,Assembly,B-Bill,B,Bill,False,False,AB,Assembly Bill
+California,State,CA,Calif.,California,A-Assembly,A,Assembly,R-Resolution,R,Resolution,False,False,AR,Assembly Resolution
+California,State,CA,Calif.,California,A-Assembly,A,Assembly,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,ACR,Assembly Concurrent Resolution
+California,State,CA,Calif.,California,A-Assembly,A,Assembly,JR-Joint Resolution,JR,Joint Resolution,False,False,AJR,Assembly Joint Resolution
+California,State,CA,Calif.,California,A-Assembly,A,Assembly,CA-Constitutional Amendment,CA,Constitutional Amendment,False,False,ACA,Assembly Constitutional Amendment
+California,State,CA,Calif.,California,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+California,State,CA,Calif.,California,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+California,State,CA,Calif.,California,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+California,State,CA,Calif.,California,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+California,State,CA,Calif.,California,S-Senate,S,Senate,CA-Constitutional Amendment,CA,Constitutional Amendment,False,False,SCA,Senate Constitutional Amendment
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,M-Memorial,M,Memorial,False,False,HM,House Memorial
+Colorado,State,CO,Colo.,Colorado,H-House,H,House,JM-Joint Memorial,JM,Joint Memorial,False,False,HJM,House Joint Memorial
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,M-Memorial,M,Memorial,False,False,SM,Senate Memorial
+Colorado,State,CO,Colo.,Colorado,S-Senate,S,Senate,JM-Joint Memorial,JM,Joint Memorial,False,False,SJM,Senate Joint Memorial
+Connecticut,State,CT,Conn.,Connecticut,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Connecticut,State,CT,Conn.,Connecticut,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Connecticut,State,CT,Conn.,Connecticut,H-House,H,House,J-Joint Resolution,J,Joint Resolution,False,False,HJ,House Joint Resolution
+Connecticut,State,CT,Conn.,Connecticut,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Connecticut,State,CT,Conn.,Connecticut,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Connecticut,State,CT,Conn.,Connecticut,S-Senate,S,Senate,J-Joint Resolution,J,Joint Resolution,False,False,SJ,Senate Joint Resolution
+Delaware,State,DE,Del.,Delaware,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Delaware,State,DE,Del.,Delaware,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Delaware,State,DE,Del.,Delaware,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Delaware,State,DE,Del.,Delaware,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Delaware,State,DE,Del.,Delaware,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Delaware,State,DE,Del.,Delaware,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Delaware,State,DE,Del.,Delaware,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Delaware,State,DE,Del.,Delaware,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+District of Columbia,Federal district,DC,D.C.,DC City Council,,,,B-Bill,B,Bill,False,False,B,"Unicameral, so bill prefix only refers to type \(Bill\). Prefix must also include session number"
+District of Columbia,Federal district,DC,D.C.,DC City Council,,,,CER-Ceremonial Resolution,CER,Ceremonial Resolution,False,False,CER,"Unicameral, so bill prefix only refers to type \(Ceremonial Resolution\). Prefix must also include session number"
+District of Columbia,Federal district,DC,D.C.,DC City Council,,,,PR-Resolution,PR,Resolution,False,False,PR,"Unicameral, so bill prefix only refers to type \(Resolution\). Prefix must also include session number"
+Florida,State,FL,Fla.,Florida,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+Florida,State,FL,Fla.,Florida,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+Georgia,State,GA,Ga.,Georgia,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Georgia,State,GA,Ga.,Georgia,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Georgia,State,GA,Ga.,Georgia,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Georgia,State,GA,Ga.,Georgia,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Georgia,State,GA,Ga.,Georgia,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Georgia,State,GA,Ga.,Georgia,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Georgia,State,GA,Ga.,Georgia,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Georgia,State,GA,Ga.,Georgia,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Hawaii,State,HI,Hawaii,Hawaii,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Hawaii,State,HI,Hawaii,Hawaii,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Hawaii,State,HI,Hawaii,Hawaii,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Hawaii,State,HI,Hawaii,Hawaii,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Hawaii,State,HI,Hawaii,Hawaii,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Hawaii,State,HI,Hawaii,Hawaii,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Hawaii,State,HI,Hawaii,Hawaii,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Hawaii,State,HI,Hawaii,Hawaii,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,B-Bill,B,Bill,True,False,H,House Bill
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,P-Proclamation,P,Proclamation,False,False,HP,House Proclamation
+Idaho,State,ID,Idaho,Idaho,H-House,H,House,JM-Joint Memorial,JM,Joint Memorial,False,False,HJM,House Joint Memorial
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,B-Bill,B,Bill,True,False,S,Senate Bill
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,P-Proclamation,P,Proclamation,False,False,SP,Senate Proclamation
+Idaho,State,ID,Idaho,Idaho,S-Senate,S,Senate,JM-Joint Memorial,JM,Joint Memorial,False,False,SJM,Senate Joint Memorial
+Illinois,State,IL,Ill.,Illinois,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Illinois,State,IL,Ill.,Illinois,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Illinois,State,IL,Ill.,Illinois,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Illinois,State,IL,Ill.,Illinois,,,,EO-Executive Order,EO,Executive Order,False,False,EO,Executive Order
+Illinois,State,IL,Ill.,Illinois,,,,JSR-Joint Session Resolution,JSR,Joint Session Resolution,False,False,JSR,Joint Session Resolution
+Illinois,State,IL,Ill.,Illinois,H-House,H,House,JRCA- Constitutional Amendment,JRCA,Constitutional Amendment,False,False,HJRCA,House Constitutional Amendment
+Illinois,State,IL,Ill.,Illinois,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Illinois,State,IL,Ill.,Illinois,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Illinois,State,IL,Ill.,Illinois,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Illinois,State,IL,Ill.,Illinois,S-Senate,S,Senate,JRCA- Constitutional Amendment,JRCA,Constitutional Amendment,False,False,SJRCA,Senate Constitutional Amendment
+Indiana,State,IN,Ind.,Indiana,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Indiana,State,IN,Ind.,Indiana,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Indiana,State,IN,Ind.,Indiana,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Indiana,State,IN,Ind.,Indiana,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Indiana,State,IN,Ind.,Indiana,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Indiana,State,IN,Ind.,Indiana,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Indiana,State,IN,Ind.,Indiana,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Indiana,State,IN,Ind.,Indiana,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Iowa,State,IA,Iowa,Iowa,H-House,H,House,F-Bill,F,Bill,False,False,HF,House Bill
+Iowa,State,IA,Iowa,Iowa,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Iowa,State,IA,Iowa,Iowa,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Iowa,State,IA,Iowa,Iowa,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Iowa,State,IA,Iowa,Iowa,S-Senate,S,Senate,F-Bill,F,Bill,False,False,SF,Senate Bill
+Iowa,State,IA,Iowa,Iowa,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Iowa,State,IA,Iowa,Iowa,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Iowa,State,IA,Iowa,Iowa,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Kansas,State,KS,Kan.,Kansas,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+Kansas,State,KS,Kan.,Kansas,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+Kentucky,State,KY,Ky.,Kentucky,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Kentucky,State,KY,Ky.,Kentucky,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Kentucky,State,KY,Ky.,Kentucky,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Kentucky,State,KY,Ky.,Kentucky,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Kentucky,State,KY,Ky.,Kentucky,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Kentucky,State,KY,Ky.,Kentucky,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Kentucky,State,KY,Ky.,Kentucky,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Kentucky,State,KY,Ky.,Kentucky,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Louisiana,State,LA,La.,Louisiana,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Louisiana,State,LA,La.,Louisiana,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Louisiana,State,LA,La.,Louisiana,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Louisiana,State,LA,La.,Louisiana,H-House,H,House,SR-Study Request,SR,Study Request,False,False,HSR,House Study Request
+Louisiana,State,LA,La.,Louisiana,H-House,H,House,CSR-Concurrent Study Request,CSR,Concurrent Study Request,False,False,HCSR,House Concurrent Study Request
+Louisiana,State,LA,La.,Louisiana,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Louisiana,State,LA,La.,Louisiana,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Louisiana,State,LA,La.,Louisiana,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Louisiana,State,LA,La.,Louisiana,S-Senate,S,Senate,SR-Study Request,SR,Study Request,False,False,SSR,Senate Study Request
+Louisiana,State,LA,La.,Louisiana,S-Senate,S,Senate,CSR-Concurrent Study Request,CSR,Concurrent Study Request,False,False,SCSR,Senate Concurrent Study Request
+Maine,State,ME,Maine,Maine,H-House,H,House,LD-Bill,LD,Bill,False,False,LD,House Bill
+Maine,State,ME,Maine,Maine,H-House,H,House,P-Paper,P,Paper,True,False,H,House Paper
+Maine,State,ME,Maine,Maine,S-Senate,S,Senate,LD-Bill,LD,Bill,False,False,LD,Senate Bill
+Maine,State,ME,Maine,Maine,S-Senate,S,Senate,P-Paper,P,Paper,True,False,S,Senate Paper
+Maryland,State,MD,Md.,Maryland,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Maryland,State,MD,Md.,Maryland,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Maryland,State,MD,Md.,Maryland,H-House,H,House,J-Joint Resolution,J,Joint Resolution,False,False,HJ,House Joint Resolution
+Maryland,State,MD,Md.,Maryland,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Maryland,State,MD,Md.,Maryland,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Maryland,State,MD,Md.,Maryland,S-Senate,S,Senate,J-Joint Resolution,J,Joint Resolution,False,False,SJ,Senate Joint Resolution
+Massachusetts,State,MA,Mass.,Massachusetts,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+Massachusetts,State,MA,Mass.,Massachusetts,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+Michigan,State,MI,Mich.,Michigan,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Michigan,State,MI,Mich.,Michigan,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Michigan,State,MI,Mich.,Michigan,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Michigan,State,MI,Mich.,Michigan,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Michigan,State,MI,Mich.,Michigan,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Michigan,State,MI,Mich.,Michigan,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Michigan,State,MI,Mich.,Michigan,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Michigan,State,MI,Mich.,Michigan,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Minnesota,State,MN,Minn.,Minnesota,H-House,H,House,F-Bill,F,Bill,False,False,HF,House Bill
+Minnesota,State,MN,Minn.,Minnesota,S-Senate,S,Senate,F-Bill,F,Bill,False,False,SF,Senate Bill
+Mississippi,State,MS,Miss.,Mississippi,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Mississippi,State,MS,Miss.,Mississippi,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Mississippi,State,MS,Miss.,Mississippi,H-House,H,House,C-Concurrent Resolution,C,Concurrent Resolution,False,False,HC,House Concurrent Resolution
+Mississippi,State,MS,Miss.,Mississippi,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Mississippi,State,MS,Miss.,Mississippi,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Mississippi,State,MS,Miss.,Mississippi,S-Senate,S,Senate,C-Concurrent Resolution,C,Concurrent Resolution,False,False,SC,Senate Concurrent Resolution
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,RB-Repeal Bill,RB,Repeal Bill,False,False,HRB,House Repeal Bill
+Missouri,State,MO,Mo.,Missouri,H-House,H,House,RM-Remonstration,RM,Remonstration,False,False,HRM,House Remonstration
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,RB-Repeal Bill,RB,Repeal Bill,False,False,SRB,Senate Repeal Bill
+Missouri,State,MO,Mo.,Missouri,S-Senate,S,Senate,RM-Remonstration,RM,Remonstration,False,False,SRM,Senate Remonstration
+Montana,State,MT,Mont.,Montana,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Montana,State,MT,Mont.,Montana,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Montana,State,MT,Mont.,Montana,H-House,H,House,J-Joint Resolution,J,Joint Resolution,False,False,HJ,House Joint Resolution
+Montana,State,MT,Mont.,Montana,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Montana,State,MT,Mont.,Montana,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Montana,State,MT,Mont.,Montana,S-Senate,S,Senate,J-Joint Resolution,J,Joint Resolution,False,False,SJ,Senate Joint Resolution
+Nebraska,State,NE,Neb.,Nebraska,L-Legislature,L,Legislature,B-Bill,B,Bill,False,False,LB,Legislature Bill
+Nebraska,State,NE,Neb.,Nebraska,L-Legislature,L,Legislature,R-Resolution,R,Resolution,False,False,LR,Legislature Resolution
+Nevada,State,NV,Nev.,Nevada,A - Assembly,A,Assembly,B-Bill,B,Bill,False,True,AB,Assembly Bill
+Nevada,State,NV,Nev.,Nevada,S-Senate,S,Senate,B-Bill,B,Bill,False,True,SB,Senate Bill
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,A-Address,A,Address,False,False,HA,House Address
+New Hampshire,State,NH,N.H.,New Hampshire,H-House,H,House,CACR-Constitutional Amendment,CACR,Constitutional Amendment,False,False,HCACR,House Constitutional Amendment
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,A-Address,A,Address,False,False,SA,Senate Address
+New Hampshire,State,NH,N.H.,New Hampshire,S-Senate,S,Senate,CACR-Constitutional Amendment,CACR,Constitutional Amendment,False,False,SCACR,Senate Constitutional Amendment
+New Jersey,State,NJ,N.J.,New Jersey,A-Assembly,A,Assembly,B-Bill,B,Bill,False,False,AB,Assembly Bill
+New Jersey,State,NJ,N.J.,New Jersey,A-Assembly,A,Assembly,R-Resolution,R,Resolution,False,False,AR,Assembly Resolution
+New Jersey,State,NJ,N.J.,New Jersey,A-Assembly,A,Assembly,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,ACR,Assembly Concurrent Resolution
+New Jersey,State,NJ,N.J.,New Jersey,A-Assembly,A,Assembly,JR-Joint Resolution,JR,Joint Resolution,False,False,AJR,Assembly Joint Resolution
+New Jersey,State,NJ,N.J.,New Jersey,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+New Jersey,State,NJ,N.J.,New Jersey,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+New Jersey,State,NJ,N.J.,New Jersey,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+New Jersey,State,NJ,N.J.,New Jersey,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+New Mexico,State,NM,N.M.,New Mexico,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+New Mexico,State,NM,N.M.,New Mexico,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+New Mexico,State,NM,N.M.,New Mexico,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+New Mexico,State,NM,N.M.,New Mexico,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+New Mexico,State,NM,N.M.,New Mexico,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+New Mexico,State,NM,N.M.,New Mexico,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+New Mexico,State,NM,N.M.,New Mexico,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+New Mexico,State,NM,N.M.,New Mexico,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+New York,State,NY,N.Y.,New York,A-Assembly,A,Assembly,No Declared Type,B,(Single bill type),True,True,A,Assembly (Single bill type)
+New York,State,NY,N.Y.,New York,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+North Carolina,State,NC,N.C.,North Carolina,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+North Carolina,State,NC,N.C.,North Carolina,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+North Dakota,State,ND,N.D.,North Dakota,H-House,H,House,B-Bill,B,Bill,False,False,1,House Bill
+North Dakota,State,ND,N.D.,North Dakota,H-House,H,House,R-Resolution,R,Resolution,False,False,5,House Resolution
+North Dakota,State,ND,N.D.,North Dakota,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,3,House Concurrent Resolution
+North Dakota,State,ND,N.D.,North Dakota,H-House,H,House,M-Memorial,M,Memorial,False,False,7,House Memorial
+North Dakota,State,ND,N.D.,North Dakota,S-Senate,S,Senate,B-Bill,B,Bill,False,False,2,Senate Bill
+North Dakota,State,ND,N.D.,North Dakota,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,6,Senate Resolution
+North Dakota,State,ND,N.D.,North Dakota,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,4,Senate Concurrent Resolution
+North Dakota,State,ND,N.D.,North Dakota,S-Senate,S,Senate,M-Memorial,M,Memorial,False,False,8,Senate Memorial
+Ohio,State,OH,Ohio,Ohio,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Ohio,State,OH,Ohio,Ohio,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Ohio,State,OH,Ohio,Ohio,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Ohio,State,OH,Ohio,Ohio,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Ohio,State,OH,Ohio,Ohio,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Ohio,State,OH,Ohio,Ohio,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Ohio,State,OH,Ohio,Ohio,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Ohio,State,OH,Ohio,Ohio,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Oklahoma,State,OK,Okla.,Oklahoma,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Oklahoma,State,OK,Okla.,Oklahoma,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Oklahoma,State,OK,Okla.,Oklahoma,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Oregon,State,OR,Ore.,Oregon,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Oregon,State,OR,Ore.,Oregon,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Oregon,State,OR,Ore.,Oregon,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Oregon,State,OR,Ore.,Oregon,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Oregon,State,OR,Ore.,Oregon,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Oregon,State,OR,Ore.,Oregon,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Oregon,State,OR,Ore.,Oregon,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Oregon,State,OR,Ore.,Oregon,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Pennsylvania,State,PA,Pa.,Pennsylvania,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Pennsylvania,State,PA,Pa.,Pennsylvania,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Pennsylvania,State,PA,Pa.,Pennsylvania,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Pennsylvania,State,PA,Pa.,Pennsylvania,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Rhode Island,State,RI,R.I.,Rhode Island,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+Rhode Island,State,RI,R.I.,Rhode Island,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+South Carolina,State,SC,S.C.,South Carolina,H-House,H,House,No Declared Type,B,(Single bill type),True,True,H,House (Single bill type)
+South Carolina,State,SC,S.C.,South Carolina,S-Senate,S,Senate,No Declared Type,B,(Single bill type),True,True,S,Senate (Single bill type)
+South Dakota,State,SD,S.D.,South Dakota,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+South Dakota,State,SD,S.D.,South Dakota,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+South Dakota,State,SD,S.D.,South Dakota,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+South Dakota,State,SD,S.D.,South Dakota,H-House,H,House,M -Memorial,M,Memorial,False,False,HM,House Memorial
+South Dakota,State,SD,S.D.,South Dakota,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+South Dakota,State,SD,S.D.,South Dakota,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+South Dakota,State,SD,S.D.,South Dakota,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+South Dakota,State,SD,S.D.,South Dakota,S-Senate,S,Senate,M -Memorial,M,Memorial,False,False,SM,Senate Memorial
+Tennessee,State,TN,Tenn.,Tennessee,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Tennessee,State,TN,Tenn.,Tennessee,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Tennessee,State,TN,Tenn.,Tennessee,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Tennessee,State,TN,Tenn.,Tennessee,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Tennessee,State,TN,Tenn.,Tennessee,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Tennessee,State,TN,Tenn.,Tennessee,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Texas,State,TX,Texas,Texas,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Texas,State,TX,Texas,Texas,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Texas,State,TX,Texas,Texas,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Texas,State,TX,Texas,Texas,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Texas,State,TX,Texas,Texas,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Texas,State,TX,Texas,Texas,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Texas,State,TX,Texas,Texas,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Texas,State,TX,Texas,Texas,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Utah,State,UT,Utah,Utah,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Utah,State,UT,Utah,Utah,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Utah,State,UT,Utah,Utah,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Utah,State,UT,Utah,Utah,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Utah,State,UT,Utah,Utah,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Utah,State,UT,Utah,Utah,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Utah,State,UT,Utah,Utah,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Utah,State,UT,Utah,Utah,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Vermont,State,VT,Vt.,Vermont,H-House,H,House,B-Bill,B,Bill,True,False,H,House Bill
+Vermont,State,VT,Vt.,Vermont,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Vermont,State,VT,Vt.,Vermont,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Vermont,State,VT,Vt.,Vermont,H-House,H,House,JRH-Joint Resolution (House),JR,Joint Resolution (House),False,False,JRH,Joint Resolution (House)
+Vermont,State,VT,Vt.,Vermont,S-Senate,S,Senate,B-Bill,B,Bill,True,False,S,Senate Bill
+Vermont,State,VT,Vt.,Vermont,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Vermont,State,VT,Vt.,Vermont,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Vermont,State,VT,Vt.,Vermont,S-Senate,S,Senate,JRS-Joint Resolution (Senate),JR,Joint Resolution (Senate),False,False,JRS,Joint Resolution (Senate)
+Virginia,State,VA,Va.,Virginia,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Virginia,State,VA,Va.,Virginia,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+Virginia,State,VA,Va.,Virginia,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Virginia,State,VA,Va.,Virginia,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Virginia,State,VA,Va.,Virginia,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Virginia,State,VA,Va.,Virginia,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Washington,State,WA,Wash.,Washington,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Washington,State,WA,Wash.,Washington,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+Washington,State,WA,Wash.,Washington,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+Washington,State,WA,Wash.,Washington,H-House,H,House,M-Memorial,M,Memorial,False,False,HM,House Memorial
+Washington,State,WA,Wash.,Washington,H-House,H,House,JM-Joint Memorial,JM,Joint Memorial,False,False,HJM,House Joint Memorial
+Washington,State,WA,Wash.,Washington,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Washington,State,WA,Wash.,Washington,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+Washington,State,WA,Wash.,Washington,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Washington,State,WA,Wash.,Washington,S-Senate,S,Senate,M-Memorial,M,Memorial,False,False,SM,Senate Memorial
+Washington,State,WA,Wash.,Washington,S-Senate,S,Senate,JM-Joint Memorial,JM,Joint Memorial,False,False,SJM,Senate Joint Memorial
+West Virginia,State,WV,W.Va.,West Virginia,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+West Virginia,State,WV,W.Va.,West Virginia,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+West Virginia,State,WV,W.Va.,West Virginia,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+West Virginia,State,WV,W.Va.,West Virginia,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+West Virginia,State,WV,W.Va.,West Virginia,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+West Virginia,State,WV,W.Va.,West Virginia,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+West Virginia,State,WV,W.Va.,West Virginia,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+West Virginia,State,WV,W.Va.,West Virginia,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Wisconsin,State,WI,Wis.,Wisconsin,A-Assembly,A,Assembly,B-Bill,B,Bill,False,False,AB,Assembly Bill
+Wisconsin,State,WI,Wis.,Wisconsin,A-Assembly,A,Assembly,R-Resolution,R,Resolution,False,False,AR,Assembly Resolution
+Wisconsin,State,WI,Wis.,Wisconsin,A-Assembly,A,Assembly,JR-Joint Resolution,JR,Joint Resolution,False,False,AJR,Assembly Joint Resolution
+Wisconsin,State,WI,Wis.,Wisconsin,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+Wisconsin,State,WI,Wis.,Wisconsin,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+Wisconsin,State,WI,Wis.,Wisconsin,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
+Wyoming,State,WY,Wyo.,Wyoming,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+Wyoming,State,WY,Wyo.,Wyoming,H-House,H,House,J-Joint Resolution,J,Joint Resolution,False,False,HJ,House Joint Resolution
+Wyoming,State,WY,Wyo.,Wyoming,S-Senate,S,Senate,F-Bill (In Senate),F,Bill (In Senate),False,False,SF,Senate Bill (In Senate)
+Wyoming,State,WY,Wyo.,Wyoming,S-Senate,S,Senate,J-Joint Resolution,J,Joint Resolution,False,False,SJ,Senate Joint Resolution
+US Congress,,,,US Congress,H-House,H,House,B-Bill,B,Bill,False,False,HB,House Bill
+US Congress,,,,US Congress,H-House,H,House,R-Resolution,R,Resolution,False,False,HR,House Resolution
+US Congress,,,,US Congress,H-House,H,House,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,HCR,House Concurrent Resolution
+US Congress,,,,US Congress,H-House,H,House,JR-Joint Resolution,JR,Joint Resolution,False,False,HJR,House Joint Resolution
+US Congress,,,,US Congress,S-Senate,S,Senate,B-Bill,B,Bill,False,False,SB,Senate Bill
+US Congress,,,,US Congress,S-Senate,S,Senate,R-Resolution,R,Resolution,False,False,SR,Senate Resolution
+US Congress,,,,US Congress,S-Senate,S,Senate,CR-Concurrent Resolution,CR,Concurrent Resolution,False,False,SCR,Senate Concurrent Resolution
+US Congress,,,,US Congress,S-Senate,S,Senate,JR-Joint Resolution,JR,Joint Resolution,False,False,SJR,Senate Joint Resolution
