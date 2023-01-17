@@ -17,8 +17,6 @@ This repository contains Python scripts that interface with the LegiScan API to 
 
 You'll be able to examine the history of a specific bill, analyze legislative action on a specific issue over a decade’s time[^1] or simply create an organized system for tracking the next session.
 
-**Note**: Until the training, this repo is
-![](01_inputs/documentation/construction.gif)
 ## Requirements
 ### Python
 - [ ] Version 3.8 or later
