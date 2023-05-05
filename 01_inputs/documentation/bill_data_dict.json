@@ -1,0 +1,592 @@
+{
+    "bill_id": {
+        "data_type": "int",
+        "description": "Internal bill id"
+    },
+    "change_hash": {
+        "data_type": "str",
+        "description": "MD5 hash of bill status meta-data to aid change detection in Pull"
+    },
+    "session_id": {
+        "data_type": "int",
+        "description": "Internal session id"
+    },
+    "session": {
+        "data_type": "dict",
+        "description": "API manual describes it as \"Array\" of session information, but it returns a dict/json object",
+        "session_id": {
+            "data_type": "int",
+            "description": "Internal session id"
+        },
+        "state_id": {
+            "data_type": "int",
+            "description": "Not documented as a \"session\" value in the API manual, but in general, this refers to \"Internal state id\""
+        },
+        "year_start": {
+            "data_type": "int",
+            "description": "Starting year of the session"
+        },
+        "year_end": {
+            "data_type": "int",
+            "description": "Ending year of the session"
+        },
+        "prefile": {
+            "data_type": "int",
+            "description": "Flag for session being in prefile (0, 1)"
+        },
+        "sine_die": {
+            "data_type": "int",
+            "description": "Flag for session being adjourned sine die (0, 1)"
+        },
+        "prior": {
+            "data_type": "int",
+            "description": "Flag for session being archived out of production updates (0, 1)"
+        },
+        "special": {
+            "data_type": "int",
+            "description": "Flag for being a special session (0, 1)"
+        },
+        "session_tag": {
+            "data_type": "str",
+            "description": "Not documented in the API manual"
+        },
+        "session_title": {
+            "data_type": "str",
+            "description": "Normalized session title with year(s) and Regular/Special Session"
+        },
+        "session_name": {
+            "data_type": "str",
+            "description": "State specific session name"
+        }
+    },
+    "url": {
+        "data_type": "str",
+        "description": "LegiScan URL"
+    },
+    "state_link": {
+        "data_type": "str",
+        "description": "State URL"
+    },
+    "completed": {
+        "data_type": "int",
+        "description": "DEPRECATED DO NOT USE"
+    },
+    "status": {
+        "data_type": "int",
+        "description": "Internal progress id for Intro, Engross, Enroll, Pass, Veto",
+        "lookup": "static_tables.load('progress')"
+    },
+    "status_date": {
+        "data_type": "date",
+        "description": "Date of status action"
+    },
+    "progress": {
+        "data_type": "list",
+        "description": "History array converted to significant progress steps to calculate status field",
+        "date": {
+            "data_type": "date",
+            "description": "Date of event"
+        },
+        "event": {
+            "data_type": "int",
+            "description": "Internal event type id matching the history action.",
+            "lookup": "static_tables.load('progress')"
+        }
+    },
+    "state": {
+        "data_type": "str",
+        "description": "State abbreviation"
+    },
+    "state_id": {
+        "data_type": "int",
+        "description": "Internal state id"
+    },
+    "bill_number": {
+        "data_type": "str",
+        "description": "Bill number"
+    },
+    "bill_type": {
+        "data_type": "str",
+        "description": "Type of instrument text"
+    },
+    "bill_type_id": {
+        "data_type": "int",
+        "description": "Internal bill type id"
+    },
+    "body": {
+        "data_type": "str",
+        "description": "Originating body text"
+    },
+    "body_id": {
+        "data_type": "int",
+        "description": "Internal body id"
+    },
+    "current_body": {
+        "data_type": "str",
+        "description": "Current body text"
+    },
+    "current_body_id": {
+        "data_type": "int",
+        "description": "Internal body id"
+    },
+    "title": {
+        "data_type": "str",
+        "description": "Title"
+    },
+    "description": {
+        "data_type": "str",
+        "description": "Description"
+    },
+    "pending_committee_id": {
+        "data_type": "int",
+        "description": "Internal committee id",
+        "lookup": "legis.get_person()"
+    },
+    "committee": {
+        "data_type": "dict",
+        "description": "Array of committee info if currently pending",
+        "committee_id": {
+            "data_type": "int",
+            "description": "Internal committee id",
+            "lookup": "legis.get_person()"
+        },
+        "chamber": {
+            "data_type": "str",
+            "description": "Chamber of committee"
+        },
+        "chamber_id": {
+            "data_type": "int",
+            "description": "Internal body id.",
+            "lookup": "body.csv"
+        },
+        "name": {
+            "data_type": "str",
+            "description": "Name of committee"
+        }
+    },
+    "referrals": {
+        "data_type": "list",
+        "description": "Array of history steps",
+        "date": {
+            "data_type": "date",
+            "description": "Date of referral"
+        },
+        "committee_id": {
+            "data_type": "int",
+            "description": "Internal committee id",
+            "lookup": "legis.get_person()"
+        },
+        "chamber": {
+            "data_type": "str",
+            "description": "Chamber of committee"
+        },
+        "chamber_id": {
+            "data_type": "int",
+            "description": "Internal body id",
+            "lookup": "static_tables.load('body')"
+        },
+        "name": {
+            "data_type": "str",
+            "description": "Name of committee; documented as \"committee_name\" in API manual"
+        }
+    },
+    "history": {
+        "data_type": "list",
+        "description": "Array of history steps",
+        "date": {
+            "data_type": "date",
+            "description": "Date of event"
+        },
+        "action": {
+            "data_type": "str",
+            "description": "Action step text"
+        },
+        "chamber": {
+            "data_type": "str",
+            "description": "Chamber taking action"
+        },
+        "chamber_id": {
+            "data_type": "int",
+            "description": "Internal body id",
+            "lookup": "static_tables.load('body')"
+        },
+        "importance": {
+            "data_type": "bool",
+            "description": "Flag for \"major\" steps, i.e., matches a progress condition (0, 1)"
+        }
+    },
+    "sponsors": {
+        "data_type": "list",
+        "description": "Array of sponsors",
+        "people_id": {
+            "data_type": "int",
+            "description": "Internal people id",
+            "lookup": "legis.get_person()"
+        },
+        "person_hash": {
+            "data_type": "str",
+            "description": "Hash of the personal details to aid change detection"
+        },
+        "party_id": {
+            "data_type": "int",
+            "description": "Internal party id",
+            "lookup": "static_tables.load('party')"
+        },
+        "state_id": {
+            "data_type": "int",
+            "description": "Not documented under \"sponsor\" in API manual, but elsewhere, state_id refers to an internal state id"
+        },
+        "party": {
+            "data_type": "str",
+            "description": "Party text"
+        },
+        "role_id": {
+            "data_type": "int",
+            "description": "Internal role id",
+            "lookup": "static_tables.load('role')"
+        },
+        "role": {
+            "data_type": "str",
+            "description": "Role text"
+        },
+        "name": {
+            "data_type": "str",
+            "description": "Full name"
+        },
+        "first_name": {
+            "data_type": "str",
+            "description": "First name"
+        },
+        "middle_name": {
+            "data_type": "str",
+            "description": "Middle name"
+        },
+        "last_name": {
+            "data_type": "str",
+            "description": "Last name"
+        },
+        "suffix": {
+            "data_type": "str",
+            "description": "Suffix"
+        },
+        "nickname": {
+            "data_type": "str",
+            "description": "Not documented in API manual"
+        },
+        "district": {
+            "data_type": "str",
+            "description": "Legislative district"
+        },
+        "ftm_eid": {
+            "data_type": "int",
+            "description": "FollowTheMoney.org EID"
+        },
+        "votesmart_id": {
+            "data_type": "int",
+            "description": "VoteSmart.org ID"
+        },
+        "opensecrets_id": {
+            "data_type": "str",
+            "description": "OpenSecrets.org ID (Congress Only)"
+        },
+        "knowwho_pid": {
+            "data_type": "int",
+            "description": "KnowWho.com PID"
+        },
+        "ballotpedia": {
+            "data_type": "str",
+            "description": "Ballotpedia.org Name"
+        },
+        "bioguide_id": {
+            "data_type": "str",
+            "description": "Not documented in API manual"
+        },
+        "sponsor_type_id": {
+            "data_type": "int",
+            "description": "Internal sponsor type id (primary, co, joint)",
+            "lookup": "static_tables.load('sponsor_type')"
+        },
+        "sponsor_order": {
+            "data_type": "int",
+            "description": "Index of order in sponsorship list"
+        },
+        "committee_sponsor": {
+            "data_type": "bool",
+            "description": "Committee sponsor flag (0, 1)"
+        },
+        "committee_id": {
+            "data_type": "int",
+            "description": "Internal committee id (if committee_sponsor)",
+            "lookup": "static_tables.load('body')"
+        },
+        "state_federal": {
+            "data_type": "int",
+            "description": "Not documented in API manual"
+        }
+    },
+    "sasts": {
+        "data_type": "list",
+        "description": "Array of same as/similar to relations",
+        "type_id": {
+            "data_type": "int",
+            "description": "Internal sast id"
+        },
+        "type": {
+            "data_type": "str",
+            "description": "Relationship text"
+        },
+        "sast_bill_number": {
+            "data_type": "str",
+            "description": "Related bill number"
+        },
+        "sast_bill_id": {
+            "data_type": "int",
+            "description": "Internal bill id"
+        }
+    },
+    "subjects": {
+        "data_type": "list",
+        "description": "Array of subjects",
+        "subject_id": {
+            "data_type": "int",
+            "description": "Internal subject id"
+        },
+        "subject_name": {
+            "data_type": "str",
+            "description": "Subject name"
+        }
+    },
+    "texts": {
+        "data_type": "list",
+        "description": "Array of text drafts",
+        "doc_id": {
+            "data_type": "int",
+            "description": "Internal document id"
+        },
+        "date": {
+            "data_type": "date",
+            "description": "Date of text if (available)"
+        },
+        "type": {
+            "data_type": "str",
+            "description": "Type of draft text (introduced, amended, enrolled, comm sub, etc.)"
+        },
+        "type_id": {
+            "data_type": "int",
+            "description": "Internal bill text type id"
+        },
+        "mime": {
+            "data_type": "str",
+            "description": "MIME type of document"
+        },
+        "mime_id": {
+            "data_type": "int",
+            "description": "Internal mime type id"
+        },
+        "url": {
+            "data_type": "str",
+            "description": "LegiScan URL"
+        },
+        "state_link": {
+            "data_type": "str",
+            "description": "State URL"
+        },
+        "text_size": {
+            "data_type": "int",
+            "description": "Size in bytes of the decoded BASE64 document (add 33% for base64)"
+        },
+        "text_hash": {
+            "data_type": "str",
+            "description": "MD5 hash of the decoded BASE64 document"
+        }
+    },
+    "votes": {
+        "data_type": "list",
+        "description": "Array of related roll calls",
+        "roll_call_id": {
+            "data_type": "int",
+            "description": "Internal roll call id"
+        },
+        "date": {
+            "data_type": "date",
+            "description": "vote date if available"
+        },
+        "desc": {
+            "data_type": "str",
+            "description": "Roll call description"
+        },
+        "yea": {
+            "data_type": "int",
+            "description": "Count of yeas"
+        },
+        "nay": {
+            "data_type": "int",
+            "description": "Count of nays"
+        },
+        "nv": {
+            "data_type": "int",
+            "description": "Count of not voting"
+        },
+        "absent": {
+            "data_type": "int",
+            "description": "Count of absent"
+        },
+        "total": {
+            "data_type": "int",
+            "description": "Total number of votes"
+        },
+        "passed": {
+            "data_type": "bool",
+            "description": "Passed flag (0, 1)"
+        },
+        "chamber": {
+            "data_type": "str",
+            "description": "Origin chamber of vote"
+        },
+        "chamber_id": {
+            "data_type": "int",
+            "description": "Internal body id"
+        },
+        "url": {
+            "data_type": "str",
+            "description": "LegiScan URL"
+        },
+        "state_link": {
+            "data_type": "str",
+            "description": "State URL"
+        }
+    },
+    "amendments": {
+        "data_type": "list",
+        "description": {
+            "data_type": "str",
+            "description": "Amendment Description"
+        },
+        "amendment_id": {
+            "data_type": "int",
+            "description": "Internal amendment id"
+        },
+        "adopted": {
+            "data_type": "bool",
+            "description": "Flag for adoption (0, 1)"
+        },
+        "chamber": {
+            "data_type": "str",
+            "description": "Origin chamber of amendment"
+        },
+        "chamber_id": {
+            "data_type": "int",
+            "description": "Internal body id"
+        },
+        "date": {
+            "data_type": "str",
+            "description": "Amendment date (if available)"
+        },
+        "title": {
+            "data_type": "str",
+            "description": "Amendment Title"
+        },
+        "mime": {
+            "data_type": "str",
+            "description": "MIME type of document"
+        },
+        "mime_id": {
+            "data_type": "int",
+            "description": "Internal mime type id"
+        },
+        "url": {
+            "data_type": "str",
+            "description": "LegiScan URL"
+        },
+        "state_link": {
+            "data_type": "str",
+            "description": "State URL"
+        },
+        "amendment_size": {
+            "data_type": "int",
+            "description": "Size in bytes of the decoded BASE64 document (add 33% for base64)"
+        },
+        "amendment_hash": {
+            "data_type": "str",
+            "description": "MD5 hash of the decoded BASE64 document"
+        }
+    },
+    "supplements": {
+        "data_type": "list",
+        "description": {
+            "data_type": "str",
+            "description": "Supplement description"
+        },
+        "supplement_id": {
+            "data_type": "int",
+            "description": "Internal supplement id"
+        },
+        "date": {
+            "data_type": "date",
+            "description": "Supplement date (if available)"
+        },
+        "type_id": {
+            "data_type": "int",
+            "description": "Internal supplement type id"
+        },
+        "type": {
+            "data_type": "str",
+            "description": "Supplement type text"
+        },
+        "title": {
+            "data_type": "str",
+            "description": "Supplement title"
+        },
+        "mime": {
+            "data_type": "str",
+            "description": "MIME type of document"
+        },
+        "mime_id": {
+            "data_type": "int",
+            "description": "Internal mime type id"
+        },
+        "url": {
+            "data_type": "str",
+            "description": "LegiScan URL"
+        },
+        "state_link": {
+            "data_type": "str",
+            "description": "State URL"
+        },
+        "supplement_size": {
+            "data_type": "int",
+            "description": "Size in bytes of the decoded BASE64 document (add 33% for base64)"
+        },
+        "supplement_hash": {
+            "data_type": "str",
+            "description": "MD5 hash of the decoded BASE64 document"
+        }
+    },
+    "calendar": {
+        "data_type": "list",
+        "description": {
+            "data_type": "str",
+            "description": "Event description"
+        },
+        "type_id": {
+            "data_type": "int",
+            "description": "Internal event type id"
+        },
+        "type": {
+            "data_type": "str",
+            "description": "Event type text"
+        },
+        "date": {
+            "data_type": "date",
+            "description": "Event date"
+        },
+        "time": {
+            "data_type": "time",
+            "description": "Event time (if available)"
+        },
+        "location": {
+            "data_type": "str",
+            "description": "Event location (if available)"
+        }
+    }
+}
